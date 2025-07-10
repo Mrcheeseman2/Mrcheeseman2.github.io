@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Music Chart</title>
+    <style>
+      body{
+        background-color: #bf1408;
+      }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <center>
+      <h1>A Chart of Michael Jackson's songs</h1>
+      <div id="plot"></div>
+      <script>
+        let songs = ["Earth Song","Smooth Criminal","Bad"];
+        let views = ["486010566","1082125693","510203189"];
+        let trace = {
+          x: songs,
+          y: views,
+          type: "bar"
+        };
+        let data = [trace];
+        Plotly.newPlot("plot", data);
+      </script>
+      <p>
+        <a href="index.html">Click Here to go Back to the Home Page</a>
+      </p>
+    </center>
+    <footer>
+      <center>
+        <hr>
+        <p>
+          <i>Cayden's Website &copy; 2025</i>
+        </p>     
+      </center>
+    </footer>
+  </body>
+</html>
