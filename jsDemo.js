@@ -1,6 +1,6 @@
 console.log("This output is from the external JS file");
 var name= "Cayden";
-let school = "Phillp o Barry";
+let school = "Phillip o Berry";
 let grade = "11th";
 console.log(`Name: ${name}`);
 console.log(`School: ${school}`);
