@@ -14,4 +14,3 @@ let harperMarker = L.marker([35.123847, -80.922945], {title: "CPCC Harper Campus
 let harrisMarker = L.marker([35.22, -80.92], {title: "CPCC Harris Campus"}).bindPopup("<p>Harris Campus</p>").addTo(map);
 let levineMarker = L.marker([35.102469, -80.709380], {title: "CPCC Levine Campus"}).bindPopup("<p>Levine Campus</p>").addTo(map);
 let merancasMarker = L.marker([35.4332997, -80.852924], {title: "CPCC Merancas Campus"}).bindPopup("<p>Merancas Campus</p>").addTo(map);
-let tokyoMarker = L.marker([35.652832, 139.839478], {title: "Tokyo"}).bindPopup("<p>Tokyo</p>").addTo(map);
